@@ -5,7 +5,7 @@ Make easy to log all your projects
 ## Set up for local development
 
 - if you don't have pip installed, install it first
-- run `pip install rzlogger`
+- run `pip install rizallogger`
 
 ## Import and use the logger
 

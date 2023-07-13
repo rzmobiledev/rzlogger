@@ -1,11 +1,12 @@
 from pathlib import Path
 from distutils.core import setup
+import setuptools
 
 directory = Path(__file__).parent
 
 setup(
     name="rizallogger",
-    packages=["rizallogger"],
+    packages=setuptools.find_packages(),
     version="0.2",
     license="MIT",
     description="Make easy to log your project",

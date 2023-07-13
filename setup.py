@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name="RZLogger",
-    packages=["RZLogger"],
+    name="rzlogger",
+    packages=["rzlogger"],
     version="0.1",
     license="MIT",
     description="Make easy to log your project",

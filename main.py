@@ -1,1 +1,1 @@
-from logger import Log
+from rzlogger import Log

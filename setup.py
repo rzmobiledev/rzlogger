@@ -7,7 +7,7 @@ directory = Path(__file__).parent
 setup(
     name="rizallogger",
     packages=setuptools.find_packages(),
-    version="0.2",
+    version="0.1",
     license="MIT",
     description="Make easy to log your project",
     long_description=(directory / "README.md").read_text(),

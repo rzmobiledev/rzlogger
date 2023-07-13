@@ -1,16 +1,20 @@
+from pathlib import Path
 from distutils.core import setup
 
+directory = Path(__file__).parent
+
 setup(
-    name="rzlogger",
-    packages=["rzlogger"],
-    version="0.1",
+    name="rizallogger",
+    packages=["rizallogger"],
+    version="0.2",
     license="MIT",
     description="Make easy to log your project",
+    long_description=(directory / "README.md").read_text(),
     author="Safrizal",
     author_email="rzmobiledev@gmail.com",
     url="https://github.com/rzmobiledev/rzlogger",
     download_url="https://github.com/rzmobiledev/rzlogger/archive/v_01.tar.gz",
-    keywords=["rzlogger", "easylog", "loggerrz"],
+    keywords=["rzlogger", "easylog", "rizallogger", "rz-logger"],
     # package need to install / package used in this package
     requires=["logging"],
     classifiers=[
